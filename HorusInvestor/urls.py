@@ -24,6 +24,6 @@ from . import views
 # ]
 
 urlpatterns = [
-    path("", views.index, name="index"),
-    path("Login/", include("Login.urls"))
+    # path("", views.index, name="index"),
+    path("", include('login.urls'))
 ]
