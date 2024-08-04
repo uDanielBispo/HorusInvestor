@@ -1,7 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-
-# Create your views here.
 
 def login(request):
-    return render(request, 'login.html')
+    loged = False
+    if not loged:
+        return render(request, 'login.html')
+
+def forgot_password_view(request):
+    return render(request, "forgot_password/forgot_password.html")
