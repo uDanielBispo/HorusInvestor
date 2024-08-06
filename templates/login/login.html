@@ -1,9 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="d-flex align-items-center py-4  vh-100">
+<div class="d-flex align-items-center py-4  " style="height: 500px;">
   <main style="width: 400px;" class="form-signin  lg m-auto p-2">
     <form>
-      <img class="mb-4" src="" alt="" width="72" height="57">
+      
+      {% load static %}
+      <img class="mb-4" src="{% static 'images/logo.jpg' %}" alt="" width="72" height="57">
+      
       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
       <div class="form-floating">
