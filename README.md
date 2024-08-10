@@ -5,3 +5,5 @@
 - [Git Project](https://github.com/users/uDanielBispo/projects/1)
 - [Tutorial Django Girls](https://tutorial.djangogirls.org/en/)
 - [Playlist Django Project](https://www.youtube.com/watch?v=SlHBNXW1rTk&list=PLEsfXFp6DpzRMby_cSoWTFw8zaMdTEXgL)
+- [Tutorial Contação de ações API](https://www.youtube.com/watch?v=oIhrwXDbs1M)
+- [B3 API](https://developers.b3.com.br/api-details?apiId=7f2c12f0-3586-4c1d-afb9-3d2a0a445eff&managerId=1&swaggerVersion=2.0&type=rest&usage=api&Itemid=224#overview)
