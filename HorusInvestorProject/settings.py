@@ -30,7 +30,8 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.socialaccount',
     'allauth.account',
-    "HorusInvestorApp"
+    "authentications",
+    "home"
 ]
 
 MIDDLEWARE = [
@@ -49,7 +50,7 @@ ROOT_URLCONF = "HorusInvestorProject.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['templates'],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
